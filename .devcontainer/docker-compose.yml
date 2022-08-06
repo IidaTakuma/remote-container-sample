@@ -8,4 +8,6 @@ services:
       dockerfile: ./.devcontainer/Dockerfile
     volumes:
       - ../:/work
+      - ~/.config:/root/.config
+      - ~/.gitconfig:/root/.gitconfig
     stdin_open: true
